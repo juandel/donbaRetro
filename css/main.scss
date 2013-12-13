@@ -1,0 +1,90 @@
+@import 'foundation.css';
+@import 'foundation.min.css';
+@import 'normalize.css';
+body{
+	background:#381f0b;
+}
+
+.wrapper{
+	margin: 40px auto 0 auto;
+	padding:0;
+	background:white;	
+	.top-bar{
+		background: #dddfce;
+		ul{
+			background: #dddfce;
+			
+			a{
+				background: #dddfce;
+				color:#3d444a;
+				text-decoration:none;
+			}
+		}
+	}
+	h1{
+		position:absolute;
+		text-indent:-9999px;
+		background:green;
+		z-index:2;
+		height: 100px;
+		margin:0;
+		padding:0;
+		top:-25px;
+		opacity:0.5;
+	}
+	h2{
+		height:50px;
+		margin:0 0 20px 0;
+	}
+
+	.slider{
+		height: 300px;
+		border: solid thin;
+	}
+	.content{
+		.remeras{
+			height:200px;
+			ul{
+				float:left;
+				padding:0;
+				margin:auto 20px;
+				li{
+					border:none;
+				}
+				li.title{
+					height:180px;
+				}
+				li.description{
+					padding:0;
+				}
+			}
+		}
+		.leyends{
+			clear: both;
+			height:100px;
+		}
+	}
+	.quienSomos{
+		background: #dddfce;
+		height:350px;
+		color:#3d444a; 
+		p{
+		float: left;
+		}
+		img{
+		margin: 0 20px 0 50px;
+		}
+	}
+	.footer{
+		color:white;
+		background:#3d444a ;
+		height:2em;
+		p{
+		line-height:2em;
+		margin:0;
+		float:left;
+		}
+	}
+}
+
+

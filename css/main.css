@@ -1,0 +1,65 @@
+@import url(foundation.css);
+@import url(foundation.min.css);
+@import url(normalize.css);
+body {
+  background: #381f0b; }
+
+.wrapper {
+  margin: 40px auto 0 auto;
+  padding: 0;
+  background: white; }
+  .wrapper .top-bar {
+    background: #dddfce; }
+    .wrapper .top-bar ul {
+      background: #dddfce; }
+      .wrapper .top-bar ul a {
+        background: #dddfce;
+        color: #3d444a;
+        text-decoration: none; }
+  .wrapper h1 {
+    position: absolute;
+    text-indent: -9999px;
+    background: green;
+    z-index: 2;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    top: -25px;
+    opacity: 0.5; }
+  .wrapper h2 {
+    height: 50px;
+    margin: 0 0 20px 0; }
+  .wrapper .slider {
+    height: 300px;
+    border: solid thin; }
+  .wrapper .content .remeras {
+    height: 200px; }
+    .wrapper .content .remeras ul {
+      float: left;
+      padding: 0;
+      margin: auto 20px; }
+      .wrapper .content .remeras ul li {
+        border: none; }
+      .wrapper .content .remeras ul li.title {
+        height: 180px; }
+      .wrapper .content .remeras ul li.description {
+        padding: 0; }
+  .wrapper .content .leyends {
+    clear: both;
+    height: 100px; }
+  .wrapper .quienSomos {
+    background: #dddfce;
+    height: 350px;
+    color: #3d444a; }
+    .wrapper .quienSomos p {
+      float: left; }
+    .wrapper .quienSomos img {
+      margin: 0 20px 0 50px; }
+  .wrapper .footer {
+    color: white;
+    background: #3d444a;
+    height: 2em; }
+    .wrapper .footer p {
+      line-height: 2em;
+      margin: 0;
+      float: left; }
