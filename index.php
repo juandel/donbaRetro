@@ -33,18 +33,22 @@
 			</div>
 			<div class="quienSomos">
 				<h2>QUIENES SOMOS ?</h2>
-				<p class="small-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p class="small-7">Somos DONBA RETRO, lorem ipsum dolor sit amet, 
+					consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
+					dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud 
+					exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 				</p>
-				<img class="small-3" src="images/logo_large">
+				<p class="small-7" id="second">
+					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+					vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+					dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait 
+					nulla facilisi. 
+				</p>
+				<img class="small-3" src="images/logo_quienesSomos.png">
 			</div>
 			<div class="footer">
 				<p>Todos los derechos reservados | Don Balon © 2000</p>
-				<p>Telefonos (011) 4793 3211 / (011) 4793-3234 - ventas@donbalon.com.ar</p>
+				<p id="second">Telefonos (011) 4793 3211 / (011) 4793-3234 - ventas@donbalon.com.ar</p>
 			</div>
 		</div>
 	</body>

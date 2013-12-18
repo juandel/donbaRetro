@@ -2,7 +2,8 @@
 @import url(foundation.min.css);
 @import url(normalize.css);
 body {
-  background: #381f0b; }
+  background: #381f0b;
+  font-size: 100%; }
 
 .wrapper {
   margin: 40px auto 0 auto;
@@ -19,21 +20,48 @@ body {
   .wrapper h1 {
     position: absolute;
     text-indent: -9999px;
-    background: green;
+    background-image: url("../images/DonbaRetroIndexSprite.png");
+    background-size: 535px;
+    background-repeat: no-repeat;
     z-index: 2;
-    height: 100px;
+    height: 165px;
+    width: 168px;
     margin: 0;
-    padding: 0;
-    top: -25px;
-    opacity: 0.5; }
+    top: -55px;
+    left: 20px; }
   .wrapper h2 {
-    height: 50px;
-    margin: 0 0 20px 0; }
+    background-image: url("../images/DonbaRetroIndexSprite.png");
+    background-size: 535px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: 165px;
+    width: 168px;
+    margin: 0;
+    top: -55px;
+    left: 20px;
+    /*		OLD VERSIOn
+    		height:50px;
+    		margin:0 0 20px 0;
+    */ }
   .wrapper .slider {
-    height: 300px;
-    border: solid thin; }
+    height: 430px;
+    background-image: url("../images/slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .wrapper .content h2 {
+    color: #FDFAFA;
+    font-style: italic;
+    font-family: sans-serif, Trebuchet MS;
+    background-size: 1223px;
+    height: 2em;
+    width: 100%;
+    background-position: -47px -391px;
+    line-height: 1.85em;
+    padding: 0 0 0 20;
+    margin: 0 0 20 0; }
   .wrapper .content .remeras {
-    height: 200px; }
+    height: 200px;
+    margin: 0 0 20px 0; }
     .wrapper .content .remeras ul {
       float: left;
       padding: 0;
@@ -46,20 +74,43 @@ body {
         padding: 0; }
   .wrapper .content .leyends {
     clear: both;
-    height: 100px; }
+    height: 100px;
+    background-image: url("../images/DonbaRetroIndexSprite.png");
+    background-position: -47px 141px;
+    background-size: 1150px;
+    height: 130px; }
   .wrapper .quienSomos {
     background: #dddfce;
-    height: 350px;
+    height: 100%;
     color: #3d444a; }
+    .wrapper .quienSomos h2 {
+      color: #FDFAFA;
+      font-style: italic;
+      font-family: sans-serif, Trebuchet MS;
+      background-size: 1223px;
+      height: 2em;
+      width: 100%;
+      background-position: -47px -391px;
+      line-height: 1.85em;
+      padding: 0 0 0 20;
+      margin: 0 0 20 0; }
     .wrapper .quienSomos p {
-      float: left; }
+      float: left;
+      padding: 50 30 0 30; }
+    .wrapper .quienSomos #second {
+      padding-top: 0; }
     .wrapper .quienSomos img {
-      margin: 0 20px 0 50px; }
+      height: 320px;
+      width: 340px; }
   .wrapper .footer {
     color: white;
     background: #3d444a;
-    height: 2em; }
+    height: 2em;
+    font-size: .8em; }
     .wrapper .footer p {
       line-height: 2em;
       margin: 0;
-      float: left; }
+      float: left;
+      padding: 0 20 0 20; }
+    .wrapper .footer p#second {
+      float: right; }
