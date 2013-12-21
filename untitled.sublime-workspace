@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"bor",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
 				"font",
 				"font-family"
 			],
@@ -20,18 +48,26 @@
 	"buffers":
 	[
 		{
-			"file": "css/main.scss",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2219,
+				"buffer_size": 866,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 1813,
+				"buffer_size": 3337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contacto_.php",
+			"settings":
+			{
+				"buffer_size": 528,
 				"line_ending": "Unix"
 			}
 		}
@@ -64,10 +100,14 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/donba/remeras.php",
-		"/Applications/MAMP/htdocs/donba/index.php",
-		"/Applications/MAMP/htdocs/donba/css/sec.css",
 		"/Applications/MAMP/htdocs/donba/css/main.scss",
+		"/Applications/MAMP/htdocs/donba/contacto_.php",
+		"/Applications/MAMP/htdocs/donba/header.php",
+		"/Applications/MAMP/htdocs/donba/footer.php",
+		"/Applications/MAMP/htdocs/donba/nav.php",
+		"/Applications/MAMP/htdocs/donba/index.php",
+		"/Applications/MAMP/htdocs/donba/remeras.php",
+		"/Applications/MAMP/htdocs/donba/css/sec.css",
 		"/Applications/MAMP/htdocs/donba/css/main.css"
 	],
 	"find":
@@ -86,6 +126,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dddfce",
+			"3d444a",
 			"font",
 			"background",
 			"		OLD VERSIOn\n		height:50px;\n		margin:0 0 20px 0;\n",
@@ -115,45 +157,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "css/main.scss",
+					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 2219,
+						"buffer_size": 866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1498,
-								1498
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1290.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 1813,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1065,
-								1065
+								439,
+								439
 							]
 						],
 						"settings":
@@ -162,7 +177,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 118.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.scss",
+					"settings":
+					{
+						"buffer_size": 3337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2902,
+								2902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "contacto_.php",
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -176,7 +245,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

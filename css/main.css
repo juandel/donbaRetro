@@ -6,7 +6,7 @@ body {
   font-size: 100%; }
 
 .wrapper {
-  margin: 40px auto 0 auto;
+  margin: 60px auto 0 auto;
   padding: 0;
   background: white; }
   .wrapper .top-bar {
@@ -39,51 +39,106 @@ body {
     margin: 0;
     top: -55px;
     left: 20px;
+    font-size: 1.3em;
     /*		OLD VERSIOn
     		height:50px;
     		margin:0 0 20px 0;
     */ }
-  .wrapper .slider {
+  .wrapper .sliderIndex {
     height: 430px;
-    background-image: url("../images/slider.jpg");
+    background-image: url("../images/sliderIndex.jpg");
     background-size: cover;
     background-repeat: no-repeat; }
-  .wrapper .content h2 {
-    color: #FDFAFA;
-    font-style: italic;
-    font-family: sans-serif, Trebuchet MS;
-    background-size: 1223px;
-    height: 2em;
-    width: 100%;
-    background-position: -47px -391px;
-    line-height: 1.85em;
-    padding: 0 0 0 20;
-    margin: 0 0 20 0; }
-  .wrapper .content .remeras {
-    height: 200px;
-    margin: 0 0 20px 0; }
-    .wrapper .content .remeras ul {
-      float: left;
-      padding: 0;
-      margin: auto 20px; }
-      .wrapper .content .remeras ul li {
-        border: none; }
-      .wrapper .content .remeras ul li.title {
-        height: 180px; }
-      .wrapper .content .remeras ul li.description {
-        padding: 0; }
-  .wrapper .content .leyends {
-    clear: both;
-    height: 100px;
-    background-image: url("../images/DonbaRetroIndexSprite.png");
-    background-position: -47px 141px;
-    background-size: 1150px;
-    height: 130px; }
-  .wrapper .quienSomos {
+  .wrapper .sliderIndex3 {
+    height: 430px;
+    background-image: url("../images/sliderIndex3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .wrapper .sliderIndex4 {
+    height: 430px;
+    background-image: url("../images/sliderIndex4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .wrapper .content {
+    /*background:#dddfce;*/ }
+    .wrapper .content h2 {
+      color: #FDFAFA;
+      font-style: italic;
+      font-family: sans-serif, Trebuchet MS;
+      background-size: 1223px;
+      height: 2em;
+      width: 100%;
+      background-position: -47px -391px;
+      line-height: 1.85em;
+      padding: 0 0 0 20; }
+    .wrapper .content .firstContent {
+      height: 300px;
+      margin: 30px 0 0 0; }
+      .wrapper .content .firstContent ul {
+        float: left;
+        padding: 0;
+        margin: auto 20px; }
+        .wrapper .content .firstContent ul li {
+          border: none; }
+        .wrapper .content .firstContent ul li.title {
+          height: 250px;
+          background-color: white; }
+        .wrapper .content .firstContent ul li.description {
+          padding: 0; }
+    .wrapper .content .firstContent4 {
+      height: 350px;
+      margin: 0px; }
+      .wrapper .content .firstContent4 form {
+        margin: 0;
+        height: 100%;
+        padding: 50px 0 50 0; }
+        .wrapper .content .firstContent4 form input {
+          width: 210px;
+          height: 30px;
+          margin: 20px 0px 0px 50px;
+          border: 1px solid #aaadaa;
+          border-radius: 8px; }
+        .wrapper .content .firstContent4 form textarea {
+          width: 410px;
+          height: 115px;
+          margin: 20px 0px 0px 50px;
+          border: 1px solid #aaadaa;
+          border-radius: 8px; }
+    .wrapper .content .leyends {
+      clear: both;
+      height: 100px;
+      background-image: url("../images/DonbaRetroIndexSprite.png");
+      background-position: -47px 141px;
+      background-size: 1150px;
+      height: 130px; }
+  .wrapper .content#tres {
+    background: #dddfce; }
+    .wrapper .content#tres .firstContent3 {
+      text-align: center; }
+    .wrapper .content#tres h3 {
+      font-style: italic;
+      font-weight: 200;
+      margin: 50 0 0 0; }
+    .wrapper .content#tres img#first {
+      float: left; }
+    .wrapper .content#tres img#second {
+      height: 374px;
+      width: 357px;
+      margin: -100 0 0 100; }
+    .wrapper .content#tres h4 {
+      margin: 15 0 0 0;
+      padding: 0 0 60 0;
+      text-decoration: underline;
+      font-style: italic;
+      font-weight: 300;
+      clear: both; }
+  .wrapper .content#cuatro {
+    background-color: dddfce; }
+  .wrapper .extra {
     background: #dddfce;
-    height: 100%;
+    height: 500px;
     color: #3d444a; }
-    .wrapper .quienSomos h2 {
+    .wrapper .extra h2 {
       color: #FDFAFA;
       font-style: italic;
       font-family: sans-serif, Trebuchet MS;
@@ -94,14 +149,45 @@ body {
       line-height: 1.85em;
       padding: 0 0 0 20;
       margin: 0 0 20 0; }
-    .wrapper .quienSomos p {
+    .wrapper .extra p {
       float: left;
       padding: 50 30 0 30; }
-    .wrapper .quienSomos #second {
+    .wrapper .extra #second {
       padding-top: 0; }
-    .wrapper .quienSomos img {
+    .wrapper .extra img#index {
       height: 320px;
       width: 340px; }
+  .wrapper .extra#tres {
+    background-color: white;
+    height: 410px; }
+    .wrapper .extra#tres .remeras {
+      height: 300px;
+      margin: 30px 0 0 0; }
+      .wrapper .extra#tres .remeras ul {
+        float: left;
+        padding: 0;
+        margin: auto 20px; }
+        .wrapper .extra#tres .remeras ul li {
+          border: none; }
+        .wrapper .extra#tres .remeras ul li.title {
+          height: 250px;
+          background-color: white; }
+        .wrapper .extra#tres .remeras ul li.description {
+          padding: 0; }
+  .wrapper .extra#cuatro {
+    background-color: white;
+    height: 410px; }
+    .wrapper .extra#cuatro h2 {
+      position: absolute;
+      top: 850px;
+      left: 0; }
+    .wrapper .extra#cuatro #googleMap {
+      width: 100%;
+      height: 410px;
+      position: relative;
+      background-color: #e5e3df;
+      overflow: hidden;
+      -webkit-transform: translateZ(0); }
   .wrapper .footer {
     color: white;
     background: #3d444a;
