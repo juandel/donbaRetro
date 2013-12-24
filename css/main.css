@@ -111,6 +111,22 @@ body {
       background-position: -47px 141px;
       background-size: 1150px;
       height: 130px; }
+  .wrapper .content#dos {
+    margin: 120px 0 0 0; }
+    .wrapper .content#dos .remeras {
+      margin: 50 0 0 0;
+      height: 100%; }
+      .wrapper .content#dos .remeras ul {
+        float: left;
+        padding: 0;
+        margin: auto 20px; }
+        .wrapper .content#dos .remeras ul li {
+          border: none; }
+        .wrapper .content#dos .remeras ul li.title {
+          height: 250px;
+          background-color: white; }
+        .wrapper .content#dos .remeras ul li.description {
+          padding: 0; }
   .wrapper .content#tres {
     background: #dddfce; }
     .wrapper .content#tres .firstContent3 {

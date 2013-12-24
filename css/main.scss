@@ -135,6 +135,29 @@ body{
 			height: 130px;
 		}
 	}
+	.content#dos{
+			margin: 120px 0 0 0;
+			.remeras{
+				margin: 50 0 0 0;
+				height: 100%;
+				ul{
+					float:left;
+					padding:0;
+					margin:auto 20px;
+
+					li{
+						border:none;
+					}
+					li.title{
+						height:250px;
+						background-color: white;
+					}
+					li.description{
+						padding:0;
+					}
+				}
+			}
+		}
 	.content#tres{
 		background: #dddfce;
 		.firstContent3{
